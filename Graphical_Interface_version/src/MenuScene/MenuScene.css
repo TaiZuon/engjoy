@@ -1,0 +1,15 @@
+.button#btnOfMenu:hover {
+    -fx-text-fill: #40fb47; /* Màu chữ khi hover */
+    -fx-font-size: 30;
+}
+
+.iconOfBtnOfMenu:hover {
+    -fx-translate-x: 5px; /* Lắc lư sang phải khi hover */
+    -fx-translate-y: 5px; /* Lắc lư xuống dưới khi hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0, 0, 0); /* Hiệu ứng drop shadow khi hover */
+}
+
+.btnMenu:hover {
+    /* -fx-rotate: 90deg; Góc xoay khi hover (ở đây là 10 độ) */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0, 0, 0); /* Hiệu ứng drop shadow khi hover */
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1212.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.app.UpdateDictionary.Add">
+   <children>
+      <AnchorPane layoutX="293.0" layoutY="67.0" prefHeight="68.0" prefWidth="246.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <TextField fx:id="wordText" layoutX="82.0" layoutY="24.0" promptText="e.x: dog">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="23.0" layoutY="25.0" text="Word" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="293.0" layoutY="161.0" prefHeight="131.0" prefWidth="246.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <TextField fx:id="wordTypeText" layoutX="50.0" layoutY="87.0" promptText="e.x: danh từ">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="36.0" layoutY="30.0" text="Type of word" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="571.0" layoutY="67.0" prefHeight="200.0" prefWidth="246.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <TextField fx:id="meaningText" layoutX="27.0" layoutY="114.0" promptText="e.x: con chó">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="39.0" layoutY="47.0" text="Meaning">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="293.0" layoutY="318.0" prefHeight="200.0" prefWidth="246.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <TextField fx:id="exampleText" layoutX="31.0" layoutY="74.0" promptText="e.x: ">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="49.0" layoutY="32.0" text="Example">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="590.0" layoutY="298.0" prefHeight="200.0" prefWidth="234.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <TextField fx:id="idiomText" layoutX="42.0" layoutY="87.0" promptText="e.x: rain dogs and cats">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="52.0" layoutY="46.0" text="Idiom">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="addButton" layoutX="395.0" layoutY="548.0" mnemonicParsing="false" onAction="#addWord" stylesheets="@style.css" text="Add" />
+      <Label fx:id="a" layoutX="58.0" layoutY="130.0" prefHeight="161.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="Test" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

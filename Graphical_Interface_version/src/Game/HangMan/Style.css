@@ -1,0 +1,254 @@
+  .hintbtn {
+    -fx-background-image: url("Image/hint.png");
+  }
+
+  .hintbtn:hover {
+    -fx-background-image: url("Image/hint_hover.png");
+  }
+
+  .hintbtn:pressed {
+    -fx-background-image: url("Image/hint_clicked.png")
+  }
+
+.Pane {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #E8FAFE;
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 10, 0, 5, 5);
+  }
+  
+  /* Normal state */
+  .Pane {
+    -fx-background-color: linear-gradient(to bottom, #34d3ff, #2989fe);;
+  }
+
+  /* Mouse entered state */
+  .Pane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+  }
+
+
+  .A {
+    -fx-background-image: url("Image/A.png")
+  }
+  .A:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/A.png")
+  }
+  .B {
+    -fx-background-image: url("Image/B.png")
+  }
+  .B:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/B.png")
+  }
+  .C {
+    -fx-background-image: url("Image/C.png")
+  }
+  .C:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/C.png")
+  }
+  .D {
+    -fx-background-image: url("Image/D.png")
+  }
+  .D:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/D.png")
+  }
+  .E {
+    -fx-background-image: url("Image/E.png")
+  }
+  .E:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/E.png")
+  }
+  .F {
+    -fx-background-image: url("Image/F.png")
+  }
+  .F:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/F.png")
+  }
+  .G {
+    -fx-background-image: url("Image/G.png")
+  }
+  .G:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/G.png")
+  }
+  .H {
+    -fx-background-image: url("Image/H.png")
+  }
+  .H:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/H.png")
+  }
+  .I {
+    -fx-background-image: url("Image/I.png")
+  }
+  .I:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/I.png")
+  }
+  .J {
+    -fx-background-image: url("Image/J.png")
+  }
+  .J:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/J.png")
+  }
+  .K {
+    -fx-background-image: url("Image/K.png")
+  }
+  .K:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/K.png")
+  }
+  .L {
+    -fx-background-image: url("Image/L.png")
+  }
+  .L:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/L.png")
+  }
+  .M {
+    -fx-background-image: url("Image/M.png")
+  }
+  .M:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/M.png")
+  }
+  .N {
+    -fx-background-image: url("Image/N.png")
+  }
+  .N:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/N.png")
+  }
+  .O {
+    -fx-background-image: url("Image/O.png")
+  }
+  .O:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/O.png")
+  }
+  .P {
+    -fx-background-image: url("Image/P.png")
+  }
+  .P:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/P.png")
+  }
+  .Q {
+    -fx-background-image: url("Image/Q.png")
+  }
+  .Q:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/Q.png")
+  }
+  .R {
+    -fx-background-image: url("Image/R.png")
+  }
+  .R:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/R.png")
+  }
+  .S {
+    -fx-background-image: url("Image/S.png")
+  }
+  .S:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/S.png")
+  }
+  .T {
+    -fx-background-image: url("Image/T.png")
+  }
+  .T:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/T.png")
+  }
+  .U {
+    -fx-background-image: url("Image/U.png")
+  }
+  .U:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/U.png")
+  }
+  .V {
+    -fx-background-image: url("Image/V.png")
+  }
+  .V:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/V.png")
+  }
+  .W {
+    -fx-background-image: url("Image/W.png")
+  }
+  .W:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/W.png")
+  }
+  .X {
+    -fx-background-image: url("Image/X.png")
+  }
+  .X:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/X.png")
+  }
+  .Y {
+    -fx-background-image: url("Image/Y.png")
+  }
+  .Y:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/Y.png")
+  }
+  .Z {
+    -fx-background-image: url("Image/Z.png")
+  }
+  .Z:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/Z.png")
+  }
+  .dash {
+    -fx-background-image: url("Image/dash.png")
+  }
+  .dash:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/dash.png")
+  }
+
+
+  .replay {
+    -fx-background-image: url("Image/replay.png")
+  }
+  .replay:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/replay.png")
+  }
+
+
+
+
+.HelpPane {
+    -fx-background-image: url("Image/HelpButton.png")
+}
+.HelpPane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/HelpButton.png")
+}
+
+.BackPane {
+    -fx-background-image: url("Image/backButton.png")
+}
+.BackPane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/backButton.png")
+}
+
+.PlayPane {
+    -fx-background-image: url("Image/playButton.png");
+}
+.PlayPane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+    -fx-background-image: url("Image/playButton.png");
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="GamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1212.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.app.Game.GameSceneController">
+   <children>
+      <AnchorPane fx:id="HangManPane" layoutX="-26.0" prefHeight="585.0" prefWidth="1212.0">
+         <children>
+            <Button layoutX="519.0" layoutY="227.0" mnemonicParsing="false" onAction="#GoToHangManScene" text="HANGMAN">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Button>
+            <Button layoutX="519.0" layoutY="383.0" mnemonicParsing="false" onAction="#BackToMenu" prefHeight="64.0" prefWidth="242.0" text="BACK">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Button>
+            <Label layoutX="500.0" layoutY="60.0" text="ENGJOY">
+               <font>
+                  <Font name="Times New Roman" size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="774.0" layoutY="92.0" text="JOY">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

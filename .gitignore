@@ -1,0 +1,10 @@
+/bin
+/.vscode
+
+CommandLine_version/.vscode/
+CommandLine_version/bin/
+
+Graphical_Interface_version/.vscode/
+Graphical_Interface_version/bin/
+
+/*.class

@@ -1,0 +1,6 @@
+@dog //
+* trang tu
+- cho
+=i have a dog
+!stupid as dogs
+

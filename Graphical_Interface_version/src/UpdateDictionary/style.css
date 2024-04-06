@@ -1,0 +1,90 @@
+  /* Areas */
+  .backButton {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #e8fef1;
+    -fx-cursor: pointer;
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 10, 0, 5, 5);
+  }
+  
+  /* Normal state */
+  .backButton {
+    -fx-background-color: linear-gradient(to bottom, #74906c, #1aa363);
+  }
+  
+  /* Mouse entered state */
+  .backButton:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+  }
+
+/* Areas */
+  .Button {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #E8FAFE;
+    -fx-cursor: pointer;
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 10, 0, 5, 5);
+  }
+  
+  /* Normal state */
+  .Button {
+    -fx-background-color: linear-gradient(to bottom, #6c8890, #1a58a3);
+  }
+  
+  /* Mouse entered state */
+  .Button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+  }
+  
+  /* Areas */
+  .Pane {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #E8FAFE;
+    -fx-cursor: pointer;
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 10, 0, 5, 5);
+  }
+  
+  /* Normal state */
+  .Pane {
+    -fx-background-color: linear-gradient(to bottom, #34d3ff, #2989fe);
+  }
+  
+  /* Mouse entered state */
+  .Pane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+  }
+
+  .addPane {
+    -fx-background-radius: 20 20 20 20;
+  }
+
+  .label {
+    -fx-margin: 10 10 10 10;
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+  }
+
+  .explain {
+    -fx-margin: 5 5 5 5;
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+  }
+
+  .textField {
+    -fx-font-size: 20;
+    -fx-background-radius: 15 15 15 15;
+    -fx-text-fill: white;
+    -fx-padding: 10 10 10 10;
+    -fx-background-color: linear-gradient(to bottom, #a5e8f9, #92c3ff);
+    /* -fx-effect: innershadow(three-pass-box, rgba(139, 139, 139, 0.8), 5, 0, 3, 0); */
+  }
+
+  .row1 {
+    -fx-pref-width: 200px;
+    -fx-min-width: 100%;
+    -fx-pref-height: 50px;
+    -fx-min-height: 100%;
+    /* -fx-effect: innershadow(three-pass-box, rgba(138, 138, 138, 0.8), 5, 0, 3, 0); */
+  }
+  
+
+
+  

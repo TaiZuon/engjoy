@@ -1,0 +1,32 @@
+.button {
+    -fx-background-color: #4CAF50; /* Màu nền */
+    -fx-text-fill: white; /* Màu chữ */
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 10px 20px; /* Khoảng cách bên trong nút */
+    -fx-border-radius: 5px; /* Độ cong của viền */
+    -fx-cursor: hand; /* Hình con trỏ khi di chuột vào nút */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Màu nền khi di chuột vào */
+}
+
+.button:pressed {
+    -fx-background-color: #3c873a; /* Màu nền khi nhấn nút */
+}
+
+.text-field {
+    -fx-font-size: 14px; /* Kích thước font chữ */
+    -fx-padding: 10px 20px; /* Khoảng cách bên trong nút */
+    -fx-border-radius: 5px; /* Độ cong của viền */
+    -fx-width: 600px;
+}
+
+.label {
+    -fx-font-family: "Roboto"; /* Tên font chữ (đổi thành font chữ mong muốn) */
+    -fx-font-size: 25px; /* Kích thước font chữ */
+}
+
+.label.notice {
+    -fx-font-size: 18px; /* Kích thước font chữ */
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="1160.0" stylesheets="@ImportScene.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ImportScene.ImportSceneController">
+   <children>
+      <TextField fx:id="pathToFileTextField" layoutX="216.0" layoutY="300.0" prefHeight="25.0" prefWidth="750.0" promptText="Nhập đường dẫn đên file" AnchorPane.topAnchor="300.0" />
+      <Button fx:id="chooseFileBtn" layoutX="966.0" layoutY="300.0" mnemonicParsing="false" onAction="#chooseFile" text="Choose File" AnchorPane.topAnchor="300.0" />
+      <Button fx:id="importToFileBtn" layoutX="522.0" layoutY="366.0" mnemonicParsing="false" onAction="#importToFile" text="Import from file" AnchorPane.topAnchor="400.0" />
+      <Label fx:id="noticeLabel" alignment="CENTER" layoutX="80.0" layoutY="112.0" prefWidth="1000.0" text="Nạp dữ liệu từ điển từ file .txt của bạn" wrapText="true" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="510.0" prefWidth="1000.0" styleClass="notice" text="*Lưu ý: Chọn file .txt đúng định dạng. Bạn có thể sử dụng chức năng Export để xuất dữ liệu ra file .txt và xem định dạng file." wrapText="true" />
+      <Label layoutX="91.0" layoutY="564.0" prefHeight="27.0" prefWidth="1000.0" styleClass="notice" text="*Lưu ý: Việc nạp dữ liệu sẽ thay đổi hoàn toàn dữ liệu từ điển mặc định của App và mất dữ liệu từ yêu thích." wrapText="true" />
+      <Button layoutX="522.0" layoutY="612.0" mnemonicParsing="false" onMouseClicked="#resetToDefault" styleClass="resetBtn" text="Reset to default" />
+   </children>
+</AnchorPane>

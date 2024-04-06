@@ -1,0 +1,32 @@
+
+  
+  /* Areas */
+  .Pane {
+    -fx-background-radius: 10 10 10 10;
+    -fx-background-color: #E8FAFE;
+    -fx-cursor: pointer;
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 10, 0, 5, 5);
+  }
+  
+  /* Normal state */
+  .Pane {
+    -fx-background-color: linear-gradient(to bottom, #34d3ff, #2989fe);;
+  }
+  
+  /* Mouse entered state */
+  .Pane:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(107, 107, 107, 0.8), 15, 0, 5, 10);
+  }
+  
+  /* Mouse pressed state */
+  /* .Pane:pressed {
+    -fx-background-color: #3c66ff;
+  } */
+
+  .label {
+    
+  }
+  
+
+
+  

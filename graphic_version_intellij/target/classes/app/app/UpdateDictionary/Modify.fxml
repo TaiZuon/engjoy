@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1212.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.app.UpdateDictionary.Modify">
+   <children>
+      <TextField layoutX="290.0" layoutY="20.0" prefHeight="26.0" prefWidth="428.0" promptText="enter the word" stylesheets="@style.css" />
+      <TextArea layoutX="389.0" layoutY="55.0" prefHeight="64.0" prefWidth="200.0" promptText="explain" stylesheets="@style.css" />
+      <AnchorPane layoutX="910.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" styleClass="Pane" stylesheets="@style.css" />
+      <AnchorPane fx:id="changeIdiomPane" layoutX="685.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" styleClass="Pane" stylesheets="@style.css">
+         <children>
+            <Label layoutX="86.0" layoutY="92.0" text="idiom" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changeWordTypePane" layoutX="458.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" styleClass="Pane">
+         <children>
+            <Label layoutX="73.0" layoutY="91.0" text="word type" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changePronunciationPane" layoutX="238.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" styleClass="Pane">
+         <children>
+            <Label layoutX="73.0" layoutY="82.0" text="pronunciation" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changeTargetPane" layoutX="21.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" styleClass="Pane">
+         <children>
+            <Label layoutX="86.0" layoutY="64.0" text="target" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="585.0" layoutY="389.0" prefHeight="86.0" prefWidth="200.0" styleClass="Pane" />
+      <AnchorPane layoutX="316.0" layoutY="389.0" prefHeight="86.0" prefWidth="200.0" styleClass="Pane" />
+      <AnchorPane layoutX="38.0" layoutY="389.0" prefHeight="86.0" prefWidth="200.0" styleClass="Pane" />
+   </children>
+</AnchorPane>

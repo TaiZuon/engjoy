@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="1160.0" stylesheets="@ExportScene.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExportScene.ExportSceneController">
+   <children>
+      <TextField fx:id="pathFolderTextField" layoutX="205.0" layoutY="300.0" prefHeight="25.0" prefWidth="750.0" promptText="Nhập đường dẫn dến file" AnchorPane.topAnchor="300.0" />
+      <Button layoutX="955.0" layoutY="300.0" mnemonicParsing="false" onAction="#chooseFoldePath" text="Choose File" AnchorPane.topAnchor="300.0" />
+      <Button layoutX="536.0" layoutY="366.0" mnemonicParsing="false" onAction="#exportToFile" text="Export To File" AnchorPane.topAnchor="400.0" />
+      <Label fx:id="noticeLabel" alignment="CENTER" layoutX="85.0" layoutY="132.0" prefWidth="1000.0" text="Xuất dữ liệu ra file .txt" textAlignment="CENTER" wrapText="true" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="512.0" prefWidth="1000.0" styleClass="notice" text="*Lưu ý: Bạn có thể tạo 1 file .txt mới và chọn nó hoặc bạn có thể chọn 1 file .txt trước đó và ghi đè dữ liệu (thay đổi hoàn toàn dữ liệu mới)" wrapText="true" />
+   </children>
+</AnchorPane>

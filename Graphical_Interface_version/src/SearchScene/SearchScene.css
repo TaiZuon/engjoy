@@ -1,0 +1,78 @@
+/* Định nghĩa kiểu chữ và màu nền cho tiêu đề của TitledPane */
+.titled-pane .title {
+    -fx-font-size: 16px; 
+    -fx-background-color: #d7f4fa;  
+    -fx-background-radius: 5 5 5 5;
+    -fx-border-color: #69c3ff;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+.titled-pane:expanded .title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #69c3ff;
+    -fx-background-radius: 10 10 10 10;
+}
+
+/* Định nghĩa kiểu chữ và màu nền cho nội dung bên trong TitledPane */
+.titled-pane .content {
+    -fx-background-color: #ecf0f1;
+    -fx-font-size: 16px;
+}
+
+/* Ẩn mũi tên mở/rút của TitledPane */
+.titled-pane .arrow-button {
+    -fx-background-color: transparent;
+}
+
+/* Tùy chỉnh màu nền cho Accordion */
+.accordion {
+    -fx-background-color: none;
+}
+
+.search-bar-container {
+    -fx-transition: padding 0.5s;
+}
+
+.search-bar-container:focused {
+    -fx-padding: 0 10 0 10;
+    -fx-translate-x: -10;
+}
+
+
+/* Quy tắc cho ListView */
+.list-view {
+    -fx-background-radius: 15px; /* Bo cong góc */
+    -fx-border-radius: 15px; /* Bo cong góc cho đường viền nếu có */
+    -fx-background-color: white;
+}
+
+/* Quy tắc cho mỗi cell trong ListView */
+.list-cell {
+    -fx-background-color: none; /* Màu nền */
+    -fx-text-fill: #01579b; /* Màu văn bản */
+    -fx-padding: 5px 5px 5px 10px; /* Khoảng cách giữa mỗi cell */
+    -fx-font-size: 14px; /* Kích thước font */
+}
+
+/* Quy tắc khi rê chuột qua một cell */
+.list-cell:hover {
+    -fx-background-color: #b2ebf2; /* Màu nền khi rê chuột qua */
+}
+
+/* Quy tắc khi một cell được chọn */
+.list-cell:selected {
+    -fx-background-color: #0288d1; /* Màu nền khi được chọn */
+    -fx-text-fill: white; /* Màu văn bản khi được chọn */
+}
+
+/* Quy tắc ẩn thanh cuộn của ListView */
+.list-view .scroll-bar:vertical,
+.list-view .scroll-bar:horizontal {
+    /* -fx-opacity: 0;
+    -fx-scale-x: 0;
+    -fx-scale-y: 0; */
+    -fx-background-color: none; /* Màu nền khi được chọn */
+}
